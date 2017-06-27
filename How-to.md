@@ -18,3 +18,5 @@
 
 1. In the terminal type: `git remote add origin https://github.com/micahwidget/starterproject.git` replacing starterproject with the name of your new project
 1. Finally, do your first push to github: `git push -u origin master`
+1. another isnt
+1. 
