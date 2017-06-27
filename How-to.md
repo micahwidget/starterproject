@@ -4,6 +4,7 @@
 1. Delete the .github folder from the new StarterProject folder.
 1. Start VS Code
 1. Open new project folder
+1. Create a new repository on [GitHub](https://github.com). To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
 1. Initialize git repository
     * ctrl-shift-` to start terminal
     * in the terminal window type: `git init`
@@ -15,7 +16,5 @@
     * in the terminal window type: `git commit -m "First Commit"`
     * Press ENTER
 
-
-
-1. Add new project to github by following [these instructions](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
-(ctrl-shift-` to get to terminal (instead of bash))
+1. In the terminal type: `git remote add origin https://github.com/micahwidget/starterproject.git` replacing starterproject with the name of your new project
+1. Finally, do your first push to github: `git push -u origin master`
